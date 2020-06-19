@@ -1,0 +1,26 @@
+{
+  "url":"http://localhost",
+  "auth":{
+    "enable":"false",
+    "user":"admin",
+    "pass":"pass"
+  },
+  "plugins":{
+    "nextion":{
+      "port":"/dev/ttyAMA0",
+      "sleep": 65535
+    },
+    "plates":{
+      "fileExt":"stl|slc|svg|zip",
+      "showAll":"false",
+      "autoFetch":"true"
+    },
+    "pushbullet":{
+      "apiKey":null
+    },
+    "timeout": {
+      "timestamp":1691514820000
+    }
+  },
+  "zAxis": 10
+}
